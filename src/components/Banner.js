@@ -1,12 +1,15 @@
-
 import React,{useState,useEffect} from 'react'
 import { Container, Row,Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from '../img/header-img.svg';
+import headerImg from '../img/graph.png';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+
+
 const Banner = () => {
     const [loopNum,setLoopNum] = useState(0);
     const [isDeleting,setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer","Web Designer","UI/UX Designer"];
+    const toRotate = ["Sahira Tejada","Web Developer","Student"];
     const [text,setText] = useState('');
     const period = 2000;
     const [delta,setDelta] = useState(300 - Math.random() * 100);
@@ -44,12 +47,18 @@ const Banner = () => {
         <Container>
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
-                    <span className='tagline'>
+                    <TrackVisibility>
+                    {({isVisible}) => 
+                    <div  className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                    {/*<span className='tagline'>
                         Welcome to my Portfolio
-                    </span>
-                    <h1>{`Hi I'm `}<span className='wrap'>{text}</span></h1>
+                    </span>*/}
+                    <h1>{`Hello,`}<br/><span className='wrap'>{`I'm ` + text}</span></h1>
                     <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <button onClick={()=> console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
+                    <div className='line'/>
+                    {/*<button onClick={()=> console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>*/ }
+                    </div>}
+                    </TrackVisibility>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt='Header img'/>

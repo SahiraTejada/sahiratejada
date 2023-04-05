@@ -22,7 +22,7 @@ const Projects = () => {
                           projectData.map((project) => {
                             return (
                               
-                              <Col size={12} sm={6} md={4}>
+                              <Col size={12} sm={6} md={4} >
       <div className="proj-imgbx">
         <img src={project.img} />
         <div className="proj-txtx">

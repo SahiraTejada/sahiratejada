@@ -391,7 +391,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 180px 0 100px 0;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.6), rgba(255, 255, 255, 0.9) ),url('./img/White-backgorund.jpg');
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.6), rgba(255, 255, 255, 1) ),url('./img/White-backgorund.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -637,7 +637,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project{
-
+text-align: center;
 }
 
 
@@ -663,13 +663,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project p {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 56%;
+    color: #000;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
 }
 
 
@@ -708,7 +706,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90deg, rgba(72, 159, 240, 0.8715861344537815) 0%, rgba(39, 137, 227, 0.7231267507002801) 35%, rgba(23, 200, 236, 0.700717787114846) 100%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -743,17 +741,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 230px;
 }
 
 .proj-imgbx img{
   width: 100%;
-  
+  height: inherit;
 }
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
+  background: var(--primary);
+  opacity: 0.9;
   position: absolute;
   width: 100%;
   height: 0;
@@ -788,7 +787,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-txtx span {
-  font-style: italic;
+
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
@@ -807,74 +806,142 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
+
 }
 
 .contact img {
   width: 92%;
 }
 
+
 .contact h2 {
   font-size: 45px;
   font-weight: 700;
-  margin-bottom: 30px;
+  text-align: center;
+  padding: 30px 0 8px;
+  position: relative;
 }
 
+.contact h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 9px;
+  width: 190px;
+  height: 10px;
+  transform: skew(-12deg) translateX(-50%);
+  background: var(--primary);
+  z-index: -1;
+  opacity: 0.75;
+}
 .contact form input,
 .contact form textarea {
+  /*
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  color: #fff;
+  color: #000;
   margin: 0 0 8px 0;
   padding: 18px 26px;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;*/
 }
 
 .contact form input:focus,
 .contact form textarea:focus {
-  background: rgba(255, 255, 255, 1);
-  color: #121212;
+  /*
+  background: blue;
+  color: #121212;*/
 }
 
 .contact form input::placeholder,
 .contact form textarea::placeholder {
+  /*
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: yellow;*/
 }
 
 .contact form input:focus::placeholder,
 .contact form textarea:focus::placeholder {
+  /*
   color: #121212;
-  opacity: 0.8;
+  opacity: 0.8;*/
 }
 
 .contact form button {
+    font-family: inherit;
+      font-size: 20px;
+      background: royalblue;
+      color: white;
+      padding: 0.7em 1em;
+      padding-left: 0.9em;
+      display: flex;
+      align-items: center;
+      border: none;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: all 0.2s;
+  /*
   font-weight: 700;
   color: #000;
-  background-color: #fff;
+  background-color: red;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
   border-radius: 0;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;*/
 }
 
 .contact form button span {
+    display: block;
+      margin-left: 0.3em;
+      transition: all 0.3s ease-in-out;
+  /*
   z-index: 1;
-  position: relative;
+  position: relative;*/
 }
 
+.contact form button svg{
+    display: block;
+      transform-origin: center center;
+      transition: transform 0.3s ease-in-out;
+}
 .contact form button:hover {
-  color: #fff;
+  /*
+  color: #fff;*/
+}
+.contact form button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
 }
 
+.contact form button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.contact form button:hover span {
+  transform: translateX(5em);
+}
+
+.contact form button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
 .contact form button::before {
+  /*
   content: "";
   background: #121212;
   width: 0;
@@ -883,11 +950,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 0;
   left: 0;
   z-index: 0;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;*/
 }
 
 .contact form button:hover::before {
-  width: 100%;
+  /*
+  width: 100%;*/
 }
 
 /************ Footer Css ************/

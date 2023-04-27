@@ -9,7 +9,7 @@ import TrackVisibility from 'react-on-screen';
 const Banner = () => {
     const [loopNum,setLoopNum] = useState(0);
     const [isDeleting,setIsDeleting] = useState(false);
-    const toRotate = ["Sahira Tejada","Web Developer","Student"];
+    const toRotate = ["Sahira Tejada","Web Developer","Software Engineer"];
     const [text,setText] = useState('');
     const period = 2000;
     const [delta,setDelta] = useState(300 - Math.random() * 100);
@@ -54,14 +54,43 @@ const Banner = () => {
                         Welcome to my Portfolio
                     </span>*/}
                     <h1>{`Hello,`}<br/><span className='wrap'>{`I'm ` + text}</span></h1>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <div className='line'/>
+                    <p>My name is Sahira Tejada and I enjoy creating things that live on the internet.By merging creativity with functionality, I'm able to create engaging online environments that leave a lasting impact on users.
+                    </p>
+          
                     {/*<button onClick={()=> console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>*/ }
                     </div>}
                     </TrackVisibility>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                <img src={headerImg} alt='Header img'/>
+                    {/*
+                <img src={headerImg} alt='Header img'/>*/}
+                <div className='boxes-container'>
+                <div class="boxes">
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div></div>
                 </Col>
             </Row>
         </Container>

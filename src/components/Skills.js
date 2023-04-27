@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -39,6 +39,7 @@ const Skills = () => {
         }
       ]
     };
+   
   return (
     <section className='skill' id='skills'>
         <Container>
@@ -50,10 +51,10 @@ const Skills = () => {
                         Skills
                     </h2>
                     
-                    <div></div></div>
+                    </div>
 
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-                        <br></br>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"</p>
+                    <p>Through my passion for crafting engaging and user-friendly websites, I have acquired a diverse skill set that enables me to deliver high-quality solutions.
+                        </p>
                           
                         <div>
       <Slider {...settings} className='skill-slider'>

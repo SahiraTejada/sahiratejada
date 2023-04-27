@@ -6,9 +6,11 @@ import css from '../img/CSS3_logo.svg.png';
 import javascript from '../img/javas.png';
 import asp_net from '../img/asp.png';
 import redux from '../img/Picture5.png';
-import fitness from '../img/Screenshot 2023-03-10 220214.png';
-import beachTube from '../img/Beach-tube.png';
-import chatbot from '../img/chatbot.png';
+import fitness from '../img/Fitness Body.png';
+import beachTube from '../img/2.png';
+import chatbot from '../img/3.png';
+import Store from '../img/4.png';
+import News from '../img/Fitness Body (2).png';
 export const dataDigitalBestSeller = [
   {
     id: 1,
@@ -40,16 +42,6 @@ export const dataDigitalBestSeller = [
     title: 'Redux',
     img: redux,
   },
-  {
-    id: 7,
-    title: 'Node.js',
-    img: node,
-  },
-  {
-    id: 8,
-    title: 'MongoDB',
-    img: mongo,
-  },
 ];
 
 
@@ -57,34 +49,38 @@ export const dataDigitalBestSeller = [
 export const projectData = [
   {
     id: 1,
-    title: 'Fitness Body',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
+    Url:'https://github.com/SahiraTejada/fitness.git',
+    description:'Cater individuals seeking exercise guidance and equipment recommendations.',
     img: fitness,
 
   },
   {
     id: 2,
-        title: 'Beach Tube',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore',
+    Url:'https://github.com/SahiraTejada/Beach-Tube.git',
+    title: 'Beach Tube',
+    description:'Dynamic online platform that is dedicated to sharing videos with a beach themed.',
     img: beachTube,
   },
   {
     id: 3,
     title: 'Experiment AI',
-    description:'Lorem ipsum dolor sit amet,',
+    Url:'https://github.com/SahiraTejada/Experiment-ai.git',
+    description:'Chatbot and image generator that uses the server of OpenAI, an artificial intelligence research company.',
     img: chatbot,
   },
   {
     id: 4,
-    title: 'Fitness Body',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
-    img: fitness,
+    Url:'https://github.com/SahiraTejada/Inventory.git',
+    title: 'Store management ',
+    description:'Centralized hub where store owners can access essential tools and information to efficiently run their operations.',
+    img: Store ,
   },
   {
     id: 5,
-    title: 'Fitness Body',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore',
-    img: fitness,
+    Url:'https://github.com/SahiraTejada/News-SignIn.git',
+    title: 'NewsIn',
+    description:'Dedicated to delivering accurate and timely information from around the world.',
+    img: News,
   },
  
 ];

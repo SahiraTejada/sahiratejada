@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { Col, Container,Row } from 'react-bootstrap';
 import contactImg from "../img/5138237.jpg";
+import AboutMe from '../img/AboutMe.svg';
 const Contact = () => {
 
     const formInitialDetails = {
@@ -45,9 +46,8 @@ const Contact = () => {
         <Container>
             <Row className='align-items-center'>
                 <h2>Contact</h2>
-                <Col md={6}>
-                    <img src={contactImg} alt='Contact Us'/>
-                </Col>
+                
+                {/*
                 <Col md={6}>
                     <form onSubmit={handleSubmit}>
                         <Row>
@@ -71,7 +71,7 @@ const Contact = () => {
                             <textarea row='6' value={formDetails.message} placeholder='Message'
                              onChange={(e)=> onFormUpdate('message',e.target.value) }/>
                              {/* <button  type='submit'><span>
-                              {buttonText}</span></button>*/}
+                              {buttonText}</span></button>
                             <button>
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
@@ -93,8 +93,10 @@ const Contact = () => {
                             }
                         </Row>
                     </form>
-                </Col>
+                </Col>*/}
+                <img src={AboutMe} alt='About Me'/>
             </Row>
+            
         </Container>
     </section>
   )

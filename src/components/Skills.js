@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -43,36 +43,28 @@ const Skills = () => {
   return (
     <section className='skill' id='skills'>
         <Container>
-            <Row>
-                <Col>
-                <div
-                className='skill-bx'>
-                    <div><h2>
-                        Skills
-                    </h2>
-                    
-                    </div>
-
-                    <p>Through my passion for crafting engaging and user-friendly websites, I have acquired a diverse skill set that enables me to deliver high-quality solutions.
-                        </p>
-                          
-                        <div>
-      <Slider {...settings} className='skill-slider'>
-      {dataDigitalBestSeller.map((item) => (
-        <div>
-        <div className='item'>
-            <img src={item.img} alt={item.title}/>
-          </div> 
-          <h5>{item.title}</h5>
-          </div>
-   ))}
-</Slider>
-    </div>
-                </div>
-                </Col>
-            </Row>
-        </Container>
-
+          <Row>
+            <Col>
+              <div className='skill-bx'>
+                <h2>Skills</h2>
+                <p>Through my passion for crafting engaging and user-friendly websites, I have acquired a diverse skill set that enables me to deliver high-quality solutions.
+                </p>
+                <div>
+                  <Slider {...settings} className='skill-slider'>
+                    {dataDigitalBestSeller.map((item) => (
+                      <div>
+                        <div className='item'>
+                          <img src={item.img} alt={item.title}/>
+                        </div> 
+                        <h5>{item.title}</h5>
+                      </div>
+                    ))}
+                  </Slider>
+               </div>
+              </div>
+            </Col>
+          </Row>
+      </Container>
     </section>
   )
 }

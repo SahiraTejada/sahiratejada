@@ -1,16 +1,14 @@
-import html from '../img/1024px-HTML5_Badge.svg.png';
-import react from "../img/Picture4.png";
-import node from "../img/Picture6.png";
-import mongo from "../img/mongodb-atlas.png";
-import css from '../img/CSS3_logo.svg.png';
-import javascript from '../img/javas.png';
-import asp_net from '../img/asp.png';
-import redux from '../img/Picture5.png';
-import fitness from '../img/Fitness Body.png';
-import beachTube from '../img/2.png';
-import chatbot from '../img/3.png';
-import Store from '../img/4.png';
-import News from '../img/Fitness Body (2).png';
+import html from '../img/HTML.png';
+import react from "../img/REACT.png";
+import css from '../img/CSS.png';
+import javascript from '../img/JS.png';
+import asp_net from '../img/ASP.png';
+import redux from '../img/REDUX.png';
+import fitness from '../img/FitnessBody.png';
+import beachTube from '../img/BeachTube.png';
+import chatbot from '../img/ExperimentAI.png';
+import Store from '../img/StoreManagement.png';
+import NewsIn from '../img/NewsIn.png';
 export const dataDigitalBestSeller = [
   {
     id: 1,
@@ -58,7 +56,7 @@ export const projectData = [
     id: 2,
     Url:'https://github.com/SahiraTejada/Beach-Tube.git',
     title: 'Beach Tube',
-    description:'Dynamic online platform that is dedicated to sharing videos with a beach themed.',
+    description:'Dynamic platform that is dedicated to sharing videos with a beach themed.',
     img: beachTube,
   },
   {
@@ -80,7 +78,7 @@ export const projectData = [
     Url:'https://github.com/SahiraTejada/News-SignIn.git',
     title: 'NewsIn',
     description:'Dedicated to delivering accurate and timely information from around the world.',
-    img: News,
+    img: NewsIn,
   },
  
 ];

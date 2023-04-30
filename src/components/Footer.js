@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </div>
         <div className='social-circle social'>
-          <a href='mailto:sahiratejada2@gmail.com?subject = Feedback&body = Message"'>
+          <a href='mailto:sahiratejada@gmail.com?subject = Feedback&body = Message"'>
             <SiGmail size={25}/>
           </a>
         </div>

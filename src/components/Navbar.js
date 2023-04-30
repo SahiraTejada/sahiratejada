@@ -46,7 +46,7 @@ export const NavBar = () => {
           <div className="card">
             <span>Let's Connect</span>
             <a className="social-link" 
-            href="mailto:sahiratejada2@gmail.com?subject = Feedback&body = Message">
+            href="mailto:sahiratejada@gmail.com?subject = Feedback&body = Message">
               <img src={gmail} alt="Gmail"/>
             </a>
             <a className="social-link" 

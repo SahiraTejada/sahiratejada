@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 const Banner = () => {
   const [loopNum,setLoopNum] = useState(0);
   const [isDeleting,setIsDeleting] = useState(false);
-  const toRotate = ["Sahira Tejada","Web Developer","Software Engineer"];
+  const toRotate = ["Sahira Tejada"," A Web Developer","Software Engineer"];
   const [text,setText] = useState('');
   const period = 2000;
   const [delta,setDelta] = useState(300 - Math.random() * 100);
@@ -43,7 +43,7 @@ const Banner = () => {
     <section className='banner' id='home'>
       <Container>
         <Row className='align-items-center'>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={12} xl={7}>
             <TrackVisibility>
               {({isVisible}) => 
                 <div  className={isVisible ? "animate__animated animate__fadeIn" : ""}>
@@ -54,7 +54,7 @@ const Banner = () => {
               }
             </TrackVisibility>
           </Col>
-            <Col xs={12} md={6} xl={5}>
+            <Col xs={12} md={12} xl={5} className='col-box'>
               <div className='boxes-container'>
                 <div class="boxes">
                   <div class="box">

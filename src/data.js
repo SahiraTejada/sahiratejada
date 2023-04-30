@@ -1,14 +1,13 @@
-import html from '../img/HTML.png';
-import react from "../img/REACT.png";
-import css from '../img/CSS.png';
-import javascript from '../img/JS.png';
-import asp_net from '../img/ASP.png';
-import redux from '../img/REDUX.png';
-import fitness from '../img/FitnessBody.png';
-import beachTube from '../img/BeachTube.png';
-import chatbot from '../img/ExperimentAI.png';
-import Store from '../img/StoreManagement.png';
-import NewsIn from '../img/NewsIn.png';
+import html from './img/HTML.png';
+import react from "./img/REACT.png";
+import css from './img/CSS.png';
+import javascript from './img/JS.png';
+import asp_net from './img/ASP.png';
+import redux from './img/REDUX.png';
+import fitness from './img/FitnessBody.png';
+import beachTube from './img/BeachTube.png';
+import chatbot from './img/ExperimentAI.png';
+import Store from './img/StoreManagement.png';
 export const dataDigitalBestSeller = [
   {
     id: 1,
@@ -63,7 +62,7 @@ export const projectData = [
     id: 3,
     title: 'Experiment AI',
     Url:'https://github.com/SahiraTejada/Experiment-ai.git',
-    description:'Chatbot and image generator that uses the server of OpenAI, an artificial intelligence research company.',
+    description:'Chatbot and image generator that uses artificial intelligence.',
     img: chatbot,
   },
   {
@@ -72,13 +71,6 @@ export const projectData = [
     title: 'Store management ',
     description:'Centralized hub where store owners can access essential tools and information to efficiently run their operations.',
     img: Store ,
-  },
-  {
-    id: 5,
-    Url:'https://github.com/SahiraTejada/News-SignIn.git',
-    title: 'NewsIn',
-    description:'Dedicated to delivering accurate and timely information from around the world.',
-    img: NewsIn,
   },
  
 ];

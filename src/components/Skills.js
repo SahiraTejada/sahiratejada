@@ -3,7 +3,7 @@ import { Container,Row,Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {dataDigitalBestSeller} from './data';
+import {dataDigitalBestSeller} from '../data';
 const Skills = () => {
     const settings = {
       dots: true,
@@ -22,14 +22,15 @@ const Skills = () => {
             dots: true
           }
         },
-        {
-          breakpoint: 600,
+            {
+          breakpoint: 800,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
           }
         },
+        
         {
           breakpoint: 480,
           settings: {

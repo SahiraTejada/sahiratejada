@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row,Col} from 'react-bootstrap';
-import { projectData } from './data';
+import { projectData } from '../data';
 const Projects = () => {
   return (
     <section className='project' id='projects'>
@@ -13,7 +13,7 @@ const Projects = () => {
             <Row>
               {projectData.map((project) => {
                 return (
-                  <Col size={12} sm={6} md={4}>
+                  <Col size={12} sm={6} md={4} className='proj-col'>
                     <div className="proj-imgbx">
                       <img src={project.img} alt={project.title} />
                       <div className="proj-txtx">       

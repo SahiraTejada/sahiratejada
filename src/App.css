@@ -767,7 +767,7 @@ span.navbar-text {
 /************ Footer Css ************/
 .footer {
  background-color: #212529;
- height: 300px;
+ height: 280px;
  display: flex;
  justify-content:space-evenly;
  align-items: center;
@@ -776,7 +776,7 @@ span.navbar-text {
 
 .slogan {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   letter-spacing: 0.5px;
   margin-top: 20px;
@@ -786,7 +786,7 @@ span.navbar-text {
 
 .footer .details{
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   letter-spacing: 0.5px;
   margin-bottom: 7px !important;

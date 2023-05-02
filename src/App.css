@@ -84,8 +84,8 @@ nav.navbar {
 }
 
 .logo img{
-  width: 100px;
-  height: 100px;  
+  width: 80px;
+  height: 80px;  
 }
 
 nav.navbar.scrolled {
@@ -138,7 +138,7 @@ span.navbar-text {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
   height: 50px !important;
-  width: 230px;
+  width: 200px;
 
 }
 
@@ -580,7 +580,7 @@ span.navbar-text {
 
 /************ Skills Css ************/
 .skill {
-  padding: 130px 0 50px 0;
+  padding: 80px 0 50px 0;
   height: 700px;
   background-color: #FAFAFC;
 }
@@ -649,7 +649,7 @@ span.navbar-text {
   text-align: center;
   background-color: #FAFAFC;
   padding-bottom: 130px;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 

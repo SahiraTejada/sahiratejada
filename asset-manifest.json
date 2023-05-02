@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sahiratejada/static/css/main.88e7d58c.css",
-    "main.js": "/sahiratejada/static/js/main.b3a97ba3.js",
+    "main.css": "/sahiratejada/static/css/main.d60b9f94.css",
+    "main.js": "/sahiratejada/static/js/main.1da7654b.js",
     "static/js/787.ffdf383b.chunk.js": "/sahiratejada/static/js/787.ffdf383b.chunk.js",
     "static/media/FitnessBody.png": "/sahiratejada/static/media/FitnessBody.888ad44aa0a2ff4cf000.png",
     "static/media/BeachTube.png": "/sahiratejada/static/media/BeachTube.47e9f92bf938fda75736.png",
@@ -23,12 +23,12 @@
     "static/media/slick.woff": "/sahiratejada/static/media/slick.295183786cd8a1389865.woff",
     "static/media/GITHUB.svg": "/sahiratejada/static/media/GITHUB.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/sahiratejada/index.html",
-    "main.88e7d58c.css.map": "/sahiratejada/static/css/main.88e7d58c.css.map",
-    "main.b3a97ba3.js.map": "/sahiratejada/static/js/main.b3a97ba3.js.map",
+    "main.d60b9f94.css.map": "/sahiratejada/static/css/main.d60b9f94.css.map",
+    "main.1da7654b.js.map": "/sahiratejada/static/js/main.1da7654b.js.map",
     "787.ffdf383b.chunk.js.map": "/sahiratejada/static/js/787.ffdf383b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88e7d58c.css",
-    "static/js/main.b3a97ba3.js"
+    "static/css/main.d60b9f94.css",
+    "static/js/main.1da7654b.js"
   ]
 }

@@ -140,7 +140,7 @@ span.navbar-text {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
   height: 50px !important;
-  width: 180px;
+  width: 200px;
 
 }
 

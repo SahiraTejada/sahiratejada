@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sahiratejada/static/css/main.3c8031e9.css",
+    "main.css": "/sahiratejada/static/css/main.f8a54138.css",
     "main.js": "/sahiratejada/static/js/main.b3a97ba3.js",
     "static/js/787.ffdf383b.chunk.js": "/sahiratejada/static/js/787.ffdf383b.chunk.js",
     "static/media/FitnessBody.png": "/sahiratejada/static/media/FitnessBody.888ad44aa0a2ff4cf000.png",
@@ -23,12 +23,12 @@
     "static/media/slick.woff": "/sahiratejada/static/media/slick.295183786cd8a1389865.woff",
     "static/media/GITHUB.svg": "/sahiratejada/static/media/GITHUB.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/sahiratejada/index.html",
-    "main.3c8031e9.css.map": "/sahiratejada/static/css/main.3c8031e9.css.map",
+    "main.f8a54138.css.map": "/sahiratejada/static/css/main.f8a54138.css.map",
     "main.b3a97ba3.js.map": "/sahiratejada/static/js/main.b3a97ba3.js.map",
     "787.ffdf383b.chunk.js.map": "/sahiratejada/static/js/787.ffdf383b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c8031e9.css",
+    "static/css/main.f8a54138.css",
     "static/js/main.b3a97ba3.js"
   ]
 }

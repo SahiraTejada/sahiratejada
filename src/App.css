@@ -107,7 +107,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #000 !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 25px;
+  font-size: 20px;
   opacity: 0.75;
 }
 
@@ -350,7 +350,7 @@ span.navbar-text {
 }
 
 .banner h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -361,7 +361,7 @@ span.navbar-text {
 
 .banner p {
   color: #7e7a7a;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -599,7 +599,7 @@ span.navbar-text {
 }
 
 .skill h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   padding: 0 0 15px;
 
@@ -613,7 +613,7 @@ span.navbar-text {
   margin: 14px 0 75px 0;
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .skill-slider {
@@ -654,7 +654,7 @@ span.navbar-text {
 
 
 .project h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   padding: 30px 0 8px;
@@ -668,7 +668,7 @@ span.navbar-text {
   margin: 14px 0 75px 0;
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .proj-imgbx {
@@ -720,7 +720,7 @@ span.navbar-text {
 
 .proj-txtx span {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.8px;
 
 }
@@ -742,7 +742,7 @@ span.navbar-text {
   background-color: transparent;
   border-color: var(--primary);
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 18px;
   padding: 1.2rem;
   font-weight: 700;
   border-width: 4px;
@@ -836,12 +836,7 @@ span.navbar-text {
   .skill{
     padding-top: 250px;
   }
-  .proj-txtx span{
-    font-size:16px;
-  }
-  .btn-projects{
-    font-size: 16px;
-  }
+
 
   
 }

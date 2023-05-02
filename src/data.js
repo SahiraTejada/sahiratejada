@@ -46,7 +46,7 @@ export const dataDigitalBestSeller = [
 export const projectData = [
   {
     id: 1,
-    Url:'https://github.com/SahiraTejada/fitness.git',
+    Url:'https://github.com/SahiraTejada/fitnessbody.git',
     description:'Cater individuals seeking exercise guidance and equipment recommendations.',
     img: fitness,
 

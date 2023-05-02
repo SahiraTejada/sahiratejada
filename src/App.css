@@ -84,8 +84,8 @@ nav.navbar {
 }
 
 .logo img{
-  width: 80px;
-  height: 80px;  
+  width: 100px;
+  height: 100px;  
 }
 
 nav.navbar.scrolled {
@@ -107,7 +107,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #000 !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 20px;
+  font-size: 25px;
   opacity: 0.75;
 }
 
@@ -138,7 +138,7 @@ span.navbar-text {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
   height: 50px !important;
-  width: 200px;
+  width: 230px;
 
 }
 
@@ -187,7 +187,7 @@ span.navbar-text {
   transform: translateY(100%);
 }
 .card p{
-  font-size: 20px;
+  font-size: 25px;
   color: #212529;
   font-weight: 700;
   padding-top: 10px;
@@ -202,7 +202,7 @@ span.navbar-text {
   height: 100%;
   color: #000;
   padding: 18px 34px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   opacity: 0.75;
   transition: opacity 0.25s;
@@ -277,7 +277,7 @@ span.navbar-text {
 }
 
 .social:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .social-circle{
   width: 50px;
@@ -339,7 +339,7 @@ span.navbar-text {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 270px 0 0 0;
+  padding: 300px 0 0 0;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.6), rgba(250,
     250,
     252, 1) ),url('./img/BG-White.jpg');
@@ -350,7 +350,7 @@ span.navbar-text {
 }
 
 .banner h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -361,7 +361,7 @@ span.navbar-text {
 
 .banner p {
   color: #7e7a7a;
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -374,7 +374,7 @@ span.navbar-text {
 }
 .boxes {
   --size: 80px;
-  --duration: 800ms;
+  --duration: 1300ms;
   height: calc(var(--size) * 2);
   width: calc(var(--size) * 3);
   position: relative;
@@ -580,7 +580,7 @@ span.navbar-text {
 
 /************ Skills Css ************/
 .skill {
-  padding: 60px 0 50px 0;
+  padding: 130px 0 50px 0;
   height: 700px;
   background-color: #FAFAFC;
 }
@@ -599,7 +599,7 @@ span.navbar-text {
 }
 
 .skill h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   padding: 0 0 15px;
 
@@ -613,7 +613,7 @@ span.navbar-text {
   margin: 14px 0 75px 0;
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .skill-slider {
@@ -649,12 +649,12 @@ span.navbar-text {
   text-align: center;
   background-color: #FAFAFC;
   padding-bottom: 130px;
-  padding-top: 40px;
+  padding-top: 120px;
 }
 
 
 .project h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
   padding: 30px 0 8px;
@@ -668,7 +668,7 @@ span.navbar-text {
   margin: 14px 0 75px 0;
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .proj-imgbx {
@@ -720,7 +720,7 @@ span.navbar-text {
 
 .proj-txtx span {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
 
 }
@@ -742,7 +742,7 @@ span.navbar-text {
   background-color: transparent;
   border-color: var(--primary);
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 20px;
   padding: 1.2rem;
   font-weight: 700;
   border-width: 4px;
@@ -772,13 +772,11 @@ span.navbar-text {
  justify-content:space-evenly;
  align-items: center;
  flex-direction: column;
- 
-
 }
 
 .slogan {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 25px;
   color: #fff;
   letter-spacing: 0.5px;
   margin-top: 20px;
@@ -788,10 +786,10 @@ span.navbar-text {
 
 .footer .details{
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   letter-spacing: 0.5px;
-  margin-bottom: 5px !important;
+  margin-bottom: 7px !important;
 }
 
 .social-container{
@@ -858,8 +856,11 @@ span.navbar-text {
   
 }
 .skill{
-  padding-top: 180px;
+  padding-top: 300px;
 
+}
+.project{
+  padding-top: 250px;
 }
 }
 /*====TABLET=====*/
@@ -919,19 +920,19 @@ span.navbar-text {
   }
   .project .col .proj-imgbx {
     height: 250px;
-    width: 360px;
+    width: 390px;
     margin-bottom: 40px;
   }
   .proj-col {
     flex: 0 0 auto !important;
-    width: 58.33333333% !important;
+    width: 75% !important;
   }
   .proj-txtx span{
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
   }
   .btn-projects{
-    font-size: 16px;
+    font-size: 18px;
   }
   .slogan{
     font-size: 25px;
@@ -1014,8 +1015,6 @@ span.navbar-text {
   .proj-imgbx span{
     font-size: 20px;
   }
-  .proj-col{
-    margin-right: 80px;
-  }
+
 
 }

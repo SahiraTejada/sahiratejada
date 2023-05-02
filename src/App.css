@@ -82,7 +82,9 @@ nav.navbar {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-
+.logo:hover{
+  transform: scale(1.1);
+}
 .logo img{
   width: 80px;
   height: 80px;  

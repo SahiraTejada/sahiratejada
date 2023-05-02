@@ -8,7 +8,7 @@ const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>As a passionate web developer, I have had the pleasure of crafting dynamic and user-centric websites.
+            <p>As a passionate developer, I have had the pleasure of design and code beautifully simple projects.
             </p>
             <Row>
               {projectData.map((project) => {

@@ -48,7 +48,7 @@ const Banner = () => {
               {({isVisible}) => 
                 <div  className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h1>{`Hello,`}<br/><span className='wrap'>{`I'm ` + text}</span></h1>
-                  <p>My name is Sahira Tejada and I enjoy creating things that live on the internet. By merging creativity with functionality, I'm able to create engaging online environments that leave a lasting impact on users.
+                  <p>I enjoy creating things that live on the internet. By merging creativity with functionality, I'm able to create engaging online environments that leave a lasting impact on users.
                   </p>
                 </div>
               }
